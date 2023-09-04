@@ -1,4 +1,4 @@
-package backjoon.stepByStepLearning.Chapter5_String;
+package backjoon.stepByStepLearning.chapter5_String;
 
 /*
 문제
