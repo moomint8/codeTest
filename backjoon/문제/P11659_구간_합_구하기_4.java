@@ -1,4 +1,4 @@
-package backjoon.누적합;
+package backjoon.문제;
 
 import java.io.*;
 import java.util.StringTokenizer;
