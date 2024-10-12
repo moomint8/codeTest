@@ -9,9 +9,7 @@ class Solution {
         isExist.add(words[0]);
         
         for(int i = 1; i < words.length; i++) {
-            if(words[i - 1].charAt(words[i - 1].length() - 1) == words[i].charAt(0) &&
-              !isExist.contains(words[i])) {
-                isExist.add(words[i]);
+            if(words[i - 1].charAt(words[i - 1].length() - 1) == words[i].charAt(0) && isExist.add(words[i])) {
                 continue;
             }
             answer[0] = (i % n) + 1;
