@@ -15,7 +15,8 @@ class Solution
         
         if(a > half && b  > half) {
             return get(half, a - half, b - half);
-        } else if(a <= half && b <= half) {
+        }
+        if(a <= half && b <= half) {
             return get(half, a, b);
         }
         return n;
